@@ -1,0 +1,43 @@
+.inputDiv{
+    display: flex;
+    justify-content: center;
+    transform: translateY(-50%);
+    gap: 1rem;
+}
+
+.newTaskBox{
+    background-color: var(--gray-500);
+    border-radius: 8px;
+    padding: 1rem;
+    width: 638px;  
+    border: 1px solid var(--gray-700);
+    color: var(--gray-100);
+}
+
+.newTaskBox:focus{
+    border: 1px solid var(--purple-dark);
+    outline: none;
+    
+}
+
+.newTaskBox::placeholder{
+    color: var(--gray-300);
+}
+
+.newTaskBox:focus::placeholder{
+    color: var(--gray-100);
+}
+
+.button{
+    display: flex;
+    background-color: var(--blue-dark);
+    color: var(--gray-100);
+    padding: 1rem;
+    border-radius: 8px;
+    border-style: none;
+    gap: 0.5rem;
+}
+
+.button:hover{
+    background-color: var(--blue);
+}
